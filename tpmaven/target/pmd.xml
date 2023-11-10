@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.29.0" timestamp="2023-11-10T10:02:24.263">
-<file name="/home/peio/eclipse-workspace/tpmaven/src/main/java/fr/esir/omd/ci/tpmaven/FirstPdf.java">
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.29.0" timestamp="2023-11-10T10:57:40.016">
+<file name="/home/peio/git/tpmaven/tpmaven/src/main/java/fr/esir/omd/ci/tpmaven/FirstPdf.java">
 <violation beginline="181" endline="181" begincolumn="25" endcolumn="33" rule="UnusedPrivateMethod" ruleset="Best Practices" package="fr.esir.omd.ci.tpmaven" class="FirstPdf" method="useless" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
 Avoid unused private methods such as 'useless()'.
 </violation>
