@@ -178,7 +178,8 @@ public class FirstPdf {
         }
     }
     
-    private static void useless() {
+    private static int useless() {
     	System.out.println("hello world");
+    	return 3;
     }
 }
