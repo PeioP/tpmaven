@@ -10,7 +10,7 @@
             <directory>${project.basedir}/target</directory>
             <outputDirectory>/</outputDirectory>
              <includes>
-                <include>tpmaven-0.0.1-SNAPSHOT-tpmaven.jar</include>
+                <include>tpmaven-0.0.1-SNAPSHOT.jar</include>
                 <!-- Add more include elements for additional files -->
             </includes>
         </fileSet>
