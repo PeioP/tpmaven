@@ -119,20 +119,6 @@
 					<version>2.22.1</version>
 				</plugin>
 				<!--<plugin>
-<<<<<<< Updated upstream
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-jar-plugin</artifactId>
-					<version>3.1.0</version>
-					<configuration>
-						<archive>
-							<manifest>
-								<addClasspath>true</addClasspath>
-								<mainClass>fr.esir.omd.ci.tpmaven.FirstPdf</mainClass>
-							</manifest>
-						</archive>
-						<classifier>tpmaven</classifier>
-					</configuration>
-=======
 				    <groupId>org.apache.maven.plugins</groupId>
 				    <artifactId>maven-jar-plugin</artifactId>
 				    <version>3.3.0</version>
@@ -144,7 +130,6 @@
 				        </archive>
 				        <classifier>tpmaven</classifier>
 				    </configuration>
->>>>>>> Stashed changes
 				</plugin>-->
 				<plugin>
 					<artifactId>maven-install-plugin</artifactId>
@@ -215,59 +200,6 @@
 						Replace with your SonarQube server URL -->
 					</configuration>
 				</plugin>
-<<<<<<< Updated upstream
-
-				<plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-assembly-plugin</artifactId>
-					<version>3.3.0</version>
-					<configuration>
-						<descriptors>
-							<descriptor>${project.basedir}/src.xml</descriptor>
-							<descriptor>${project.basedir}/jar.xml</descriptor>
-						</descriptors>
-						<archive>
-							<manifest>
-								<mainClass>fr.esir.omd.ci.tpmaven.FirstPdf</mainClass>
-							</manifest>
-						</archive>
-						<descriptorRefs>
-							<descriptorRef>jar-with-dependencies</descriptorRef>
-						</descriptorRefs>
-					</configuration>
-					<executions>
-						<execution>
-							<id>make-assembly</id>
-							<phase>package</phase>
-							<goals>
-								<goal>single</goal>
-							</goals>
-						</execution>
-					</executions>
-				</plugin>
-				<plugin>
-					<groupId>org.codehaus.mojo</groupId>
-					<artifactId>cobertura-maven-plugin</artifactId>
-					<version>2.7</version> <!-- Utilisez la version la plus
-					récente du plugin -->
-					<configuration>
-						<formats>
-							<format>xml</format>
-							<!-- Autres formats de rapports si nécessaire -->
-						</formats>
-						<outputDirectory>
-							/home/elmet/tpmaven/tpmaven/target/site/cobertura</outputDirectory>
-					</configuration>
-					<executions>
-						<execution>
-							<goals>
-								<goal>clean</goal>
-								<goal>check</goal>
-							</goals>
-						</execution>
-					</executions>
-				</plugin>
-=======
 				
 				 <plugin>
 					 <groupId>org.apache.maven.plugins</groupId>
@@ -326,7 +258,6 @@
                 <target>1.8</target>
             </configuration>
         </plugin>
->>>>>>> Stashed changes
 			</plugins>
 		</pluginManagement>
 	</build>

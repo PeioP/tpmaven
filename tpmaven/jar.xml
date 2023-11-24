@@ -7,10 +7,14 @@
     </formats>
     <fileSets>
         <fileSet>
-            <directory>${project.basedir}/target</directory>
+            <directory>${project.build.directory}</directory>
             <outputDirectory>/</outputDirectory>
              <includes>
+<<<<<<< Updated upstream
                 <include>tpmaven-0.0.1-SNAPSHOT.jar</include>
+=======
+                <include>*.jar</include>
+>>>>>>> Stashed changes
                 <!-- Add more include elements for additional files -->
             </includes>
         </fileSet>
