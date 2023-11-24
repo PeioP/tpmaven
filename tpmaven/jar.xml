@@ -7,7 +7,7 @@
     </formats>
     <fileSets>
         <fileSet>
-            <directory>${project.build.basedir}/target</directory>
+            <directory>${project.basedir}/target</directory>
             <outputDirectory>/</outputDirectory>
              <includes>
                 <include>tpmaven-0.0.1-SNAPSHOT-tpmaven.jar</include>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="fr.esir.omd.ci.tpmaven.FirstPdfTest" time="0.082" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="fr.esir.omd.ci.tpmaven.FirstPdfTest" time="0.041" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="java.vm.specification.version" value="17"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/home/maxime/Downloads/eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.8.v20230831-1047/jre/lib"/>
-    <property name="sun.java.command" value="/home/maxime/Documents/tpmaven/tpmaven/target/surefire/surefirebooter5792851146497462178.jar /home/maxime/Documents/tpmaven/tpmaven/target/surefire 2023-11-24T09-27-07_407-jvmRun1 surefire10186310571992863581tmp surefire_02308053567875793596tmp"/>
+    <property name="sun.java.command" value="/home/maxime/Documents/tpmaven/tpmaven/target/surefire/surefirebooter1420236910859095286.jar /home/maxime/Documents/tpmaven/tpmaven/target/surefire 2023-11-24T09-30-58_713-jvmRun1 surefire9997272595709852629tmp surefire_02775893518047789788tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/maxime/Documents/tpmaven/tpmaven/target/test-classes:/home/maxime/Documents/tpmaven/tpmaven/target/classes:/home/maxime/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/maxime/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/maxime/.m2/repository/com/itextpdf/itextpdf/5.5.13.1/itextpdf-5.5.13.1.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -28,7 +28,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/home/maxime/Documents/tpmaven/tpmaven/target/surefire/surefirebooter5792851146497462178.jar"/>
+    <property name="surefire.real.class.path" value="/home/maxime/Documents/tpmaven/tpmaven/target/surefire/surefirebooter1420236910859095286.jar"/>
     <property name="awt.useSystemAAFontSettings" value="on"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.8.1+1"/>
@@ -54,5 +54,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testApp" classname="fr.esir.omd.ci.tpmaven.FirstPdfTest" time="0.003"/>
+  <testcase name="testApp" classname="fr.esir.omd.ci.tpmaven.FirstPdfTest" time="0.002"/>
 </testsuite>

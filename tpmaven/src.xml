@@ -7,7 +7,7 @@
     </formats>
     <fileSets>
         <fileSet>
-            <directory>${project.build.basedir}/src</directory>
+            <directory>${project.basedir}/src</directory>
             <outputDirectory>/</outputDirectory>
         </fileSet>
         <!-- Add more fileSet configurations as needed -->
