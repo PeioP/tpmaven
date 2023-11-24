@@ -1,0 +1,20 @@
+<assembly xmlns="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.3"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.3 http://maven.apache.org/xsd/assembly-1.1.3.xsd">
+    <id>exec-pdf</id>
+    <formats>
+        <format>zip</format>
+    </formats>
+    <fileSets>
+        <fileSet>
+            <directory>${project.build.basedir}/target</directory>
+            <outputDirectory>/</outputDirectory>
+             <includes>
+                <include>tpmaven-0.0.1-SNAPSHOT-tpmaven.jar</include>
+                <!-- Add more include elements for additional files -->
+            </includes>
+        </fileSet>
+        <!-- Add more fileSet configurations as needed -->
+    </fileSets>
+    <!-- Add more assembly configurations as needed -->
+</assembly>
